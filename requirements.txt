@@ -1,0 +1,28 @@
+# Web Framework
+fastapi==0.110.0
+uvicorn==0.30.6
+
+# LangChain and OpenAI Integration
+langchain==0.3.7
+langchain-openai==0.2.0
+langchain-text-splitters==0.3.0
+# langchain-core y langsmith ya vienen como deps, no los fijamos a mano
+
+# HTTP Client
+requests==2.31.0
+
+# Environment Variables
+python-dotenv==1.0.1
+
+# Date and Time
+python-dateutil>=2.8.2  # 2.9.0 es prerelease, puede dar conflictos
+
+# Type Hints
+typing-extensions>=4.7.0  # 4.10.0 no siempre es necesario
+
+# Utils
+pandas==2.2.2
+numpy==1.26.4
+
+# Testing
+pytest==8.3.3
